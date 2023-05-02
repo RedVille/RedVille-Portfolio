@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;600;700&display=swap');
+
+body {
+    background-color: #060305;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    position: fixed;
+    margin-left: 42px;
+    font-family: 'Alata', sans-serif;
+    font-size: 19pt;
+    font-weight: bold;
+}
+
+.logo-red {
+    font-weight: bold;
+    position: fixed;
+    margin-left: 25px;
+    font-family: 'Alata', sans-serif;
+    font-size: 22pt;
+}
+
+.logo-red:hover {
+    color: #F7014B;
+}
+
+.tittle-section {
+    color: #F7014B;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.margin-section {
+    margin-top: 120px;
+}
+
+.general-msg {
+    padding-bottom: 15px;
+    color: #CDCDCD;
+    font-size: 16px;
+}
+
+.general-button {
+    font-size: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F7014B;
+    border-radius: 10px;
+    border-color: #F7014B;
+    background-color: #060305;
+}
+
+.general-button:hover {
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: #F7014B;
+    background-color: #F7014B;
+}
+
+.general-input {
+    width: 100%;
+    background-color: #1b1a1b;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin: 0px;
+    color: #CDCDCD;
+    margin-bottom: 15px;
+}
+
+/* HEADER */
+
+.navMenu {
+    padding-top: 20px;
+    text-align: center;
+    height: 70px;
+    background-color: #060305;
+}
+
+.navMenu a {
+    color: #CDCDCD;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: inline-block;
+    width: 80px;
+    /*Sticky on top*/
+}
+
+.navMenu a:hover {
+    color: #F7014B;
+}
+
+.sticky-top {
+    position: fixed;
+    width: 100%;
+}
+
+/* SECTIONS */
+
+/* About */
+
+/* typing animation */
+
+.small-txt {
+    width: 160px;
+}
+
+.typewriter p {
+  color: #CDCDCD;
+  overflow: hidden;
+  border-right: .15em solid #F7014B;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    typing 2.5s steps(2, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #F7014B }
+}
+
+
+.name-about {
+    padding-top: 7%;
+}
+
+.about-section {
+    font-size: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 12%;
+}
+
+.rounded-circle {
+    width: 55%;
+    margin-left: 30%;
+    border-radius: 50%;
+}
+
+.box-with-border {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #0A0609;
+    border: 1px solid #532929;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #CDCDCD;
+}
+
+/* Projects */
+
+.projects-cont {
+    padding: 35px;
+}
+
+.project-img {
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+/* Contact */
+
+.position-end {
+    width: 100%;
+    text-align: end;
+}
+
+.contact-form {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+/* Footer */
+
+.text-footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 12pt;
+    color: #cdcdcd83;
+}
+
+.text-footer:hover {
+    color: #F7014B;
+}
+
+.social-icon {
+    margin-left: 25px;
+    font-size: 20px;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #F7014B;
+}
+
+.sticky-left {
+    position: fixed;
+    height: 100%;
+    margin-top: 15%;
+}
+
+.sticky-left-item {
+    width: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    width: 1px;
+    background: #5D3E4D; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: #F7014B; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #F7014B; 
+}
